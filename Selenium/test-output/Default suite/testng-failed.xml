@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgEx.MyfirstLiseners">
+      <class name="navigateEx.Ex1">
         <methods>
-          <include name="Testmatch"/>
+          <include name="Navig"/>
         </methods>
-      </class> <!-- TestNgEx.MyfirstLiseners -->
+      </class> <!-- navigateEx.Ex1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
