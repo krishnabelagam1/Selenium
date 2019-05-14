@@ -17,6 +17,7 @@ public class DragAndDropEx {
 		    WebElement to = driver.findElement(By.xpath("//*[@id=\"bank\"]/li"));
 		    Actions act = new Actions(driver);
 		    act.dragAndDrop(from, to).build().perform();
+		    driver.close();
 
 	}
 

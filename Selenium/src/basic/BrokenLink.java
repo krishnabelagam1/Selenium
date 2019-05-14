@@ -16,7 +16,8 @@ public class BrokenLink {
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
-		driver.get("https://hc.apache.org/");
+		//driver.get("https://hc.apache.org/");
+		driver.get("https://www.guru99.com/");
 		List<WebElement> list = driver.findElements(By.tagName("a"));
 		System.out.println("Total number of links:" + list.size());
 		for (int i = 0; i <= list.size(); i++) {

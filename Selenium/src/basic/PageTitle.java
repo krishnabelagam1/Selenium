@@ -14,7 +14,9 @@ public class PageTitle {
 		driver.get("https://www.facebook.com/");
 	String St = driver.getTitle();
 		Assert.assertEquals(St, "Facebook – log in or sign up");
-	Assert.assertTrue(St.contains("Facebook – log in or sign up"), "Both are verified");
+	Assert.assertTrue(St.contains("Facebook – log in or sign up"));
+	System.out.println("Title verified");
+	
 	  
 		/*
 		 * String St = driver.getPageSource(); System.out.println(St);

@@ -18,7 +18,7 @@ public class Actionsex1 {
 	
 		System.out.println("element click");
 		Actions action = new Actions(driver);
-		action.keyDown(ele,Keys.SHIFT).sendKeys(ele, "sai krishna").perform();
+		action.keyUp(ele,Keys.SHIFT).sendKeys(ele, "sai krishna").perform();
 		
 		
 
